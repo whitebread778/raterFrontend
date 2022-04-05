@@ -19,7 +19,6 @@ function App() {
     <div className="App">
       <SideNav />
         <Routes>
-
             <Route exact path="/programs" element={<Programs />}></Route>
             <Route path="/programs/:schoolProgramId" element={<Program />}></Route>
             {/* <Route path="/writeReviews" element={<WriteReviews />}></Route> */}

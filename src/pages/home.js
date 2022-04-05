@@ -5,7 +5,7 @@ import SearchBar from "../components/search";
 //import { Route, Routes } from 'react-router-dom';
 import Announcer from "../components/announcer";
 import "../styles/home.css";
-import study from "../../public/study.png";
+import study from "../images/study.png";
 
 const home = () => {
   return (

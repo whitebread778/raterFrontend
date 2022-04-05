@@ -6,7 +6,7 @@ import '../styles/programs.css';
 import baseUrl from "../data/baseApi";
 
 
-const programs = () => {
+const Programs = () => {
     const [allPrograms, setAllPrograms] = useState([]);
     const [searchedPrograms, setSearchedPrograms] = useState(null);
 
@@ -82,4 +82,4 @@ const programs = () => {
     )
 }
 
-export default programs;
+export default Programs;

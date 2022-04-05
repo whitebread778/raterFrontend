@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-import bcit from '../../public/bcit.svg'
+import bcit from '../images/bcit.svg';
 
 const SideNav = (props) => {
     return (

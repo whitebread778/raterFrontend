@@ -6,7 +6,7 @@ import ReviewCard from "../components/reviewCard";
 import baseUrl from "../data/baseApi";
 import { useParams } from "react-router-dom";
 
-const reviewPage = () => {
+const ReviewPage = () => {
   const { schoolProgramId } = useParams();
   const [allReviews, setAllReviews] = useState([]);
   const [selectedProgram, setSelectedProgram] = useState(null);
@@ -24,8 +24,7 @@ const reviewPage = () => {
         }
       );
       const data = await resp.json();
-      console.log(data);
-      setAllReviews(data);
+      setAllReviews(data.reverse());
     }
     getAllReviews();
 
@@ -76,8 +75,8 @@ const reviewPage = () => {
         </div>
         <div className="review-page">
           <div className="review-content-container">
-            {allReviews.reverse().map((review) => {
-              return <ReviewCard review={review} />;
+            {allReviews.map((review) => {
+              return <ReviewCard key={`program-${review.programRateId}`} review={review} />;
             })}
           </div>
         </div>
@@ -88,4 +87,4 @@ const reviewPage = () => {
   }
 };
 
-export default reviewPage;
+export default ReviewPage;

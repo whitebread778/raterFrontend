@@ -9,10 +9,10 @@ import Row from "react-bootstrap/Row";
 import Card from "react-bootstrap/Card";
 import WriteReviews from "./writeReviews";
 import baseUrl from "../data/baseApi";
-import programPhoto from "../../public/programPhoto.png";
+import programPhoto from "../images/programPhoto.png";
 // import study from "../../public/bcit.svg";
 
-const program = () => {
+const Program = () => {
   const { schoolProgramId } = useParams();
   const [selectedProgram, setSelectedProgram] = useState(null);
   console.log(schoolProgramId);
@@ -89,4 +89,4 @@ const program = () => {
   }
 };
 
-export default program;
+export default Program;

@@ -9,7 +9,7 @@ import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import { useNavigate } from 'react-router-dom';
-const writeReviews = (props) => {
+const WriteReviews = (props) => {
     const {schoolProgramId} = useParams();
     const [score, setScore] = useState(0);
     const [review, setReview] = useState("");
@@ -82,4 +82,4 @@ const writeReviews = (props) => {
     )
 }
 
-export default writeReviews;
+export default WriteReviews;
