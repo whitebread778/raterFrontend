@@ -1,0 +1,126 @@
+.sidenav {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #F2F3F7;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 30px;
+    text-align: center;
+  }
+  
+  .sidenav a {
+    /* padding: 8px 8px 8px 32px; */
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    margin-bottom: 3rem;
+   
+  }
+
+  .logoImg{
+    border-radius: 25px;
+    margin-bottom:3rem;
+    width:60%;
+    height:auto;
+   
+  }
+  
+  .sidenav a:hover {
+    color: black;
+  }
+  
+
+  /* @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  } */
+
+
+  /* home search programs */
+  .visually-hidden {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+* {
+  box-sizing: border-box;
+
+}
+
+body{
+  /* background-image:url("../../public/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;   */
+  background-color: red;
+}
+
+/* searchPage */
+.searchPage{
+  width:60%;
+  height: auto;
+  margin: auto;
+  margin-top: 10%;
+
+}
+
+.searchBar{
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 12px;
+  margin-top: 4rem;
+}
+#searchBtn{
+  min-width: 5vw;
+  padding: 2vh 3vh;
+  border-radius: 2vh;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 16px;
+  cursor:pointer;
+}
+
+#header-search{
+  background-position: 10px 12px;
+  background-repeat: no-repeat;
+  width: 100%;
+  font-size: 16px;
+  padding: 12px 20px 12px 40px;
+  border: 1px solid #ddd;
+  
+}
+
+.programList {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.programList li{
+  border: 1px solid #ddd;
+  margin-top: -1px; /* Prevent double borders */
+  background-color: #f6f6f6;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  color: black;
+  display: block
+}
+
+.programList li:hover:not(.header) {
+  background-color: #eee;
+}
+Body{
+  background-color: 'yellow';
+  }

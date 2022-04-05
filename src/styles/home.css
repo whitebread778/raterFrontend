@@ -1,0 +1,28 @@
+.home-page {
+    margin-left: 200px;
+}
+
+.home-page{
+    width:60%;
+    height: auto;
+    margin: auto;
+    margin-top: 10%;
+    font-size: larger;
+    display: grid;
+    line-height:2fr;
+  
+}
+.studyImg{
+    width: 45%;
+    max-height: fit-content;
+    border-radius: 15px;
+    
+}
+span{
+    display:flex;
+    padding-right:1rem;
+}
+
+li{
+    padding-top:1rem;
+}

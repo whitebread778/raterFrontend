@@ -1,0 +1,14 @@
+.selected-program-section {
+    margin-left: 200px;
+    margin-top: 3rem;
+    gap:3rem;
+    padding:2rem;
+
+
+}
+
+.programPhoto{
+    width: 70%;
+    height:auto;
+    margin:auto;
+}
